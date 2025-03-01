@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LeetCode 75 - Sort Colors"
-date: 2025-03-02 02:45:01 +0400
+date: 2025-03-02 03:01:01 +0400
 categories: leetcode programming
 ---
 ## Table of Contents
