@@ -26,7 +26,6 @@ You must write an algorithm that runs in O(n) time and without using the divisio
 This pass fills the answer array with the products of all elements to the left of each index.
 
 2. Right Products Pass:
-
 - Initialize right_product to 1.
 - Iterate through the array from right to left.
 - For each index i, multiply answer[i] by right_product.
