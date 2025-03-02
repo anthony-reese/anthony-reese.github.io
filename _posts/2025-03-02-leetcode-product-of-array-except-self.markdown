@@ -6,7 +6,7 @@ categories: leetcode programming
 ---
 ## Table of Contents
 - [Problem Statement](#problem-statement)
-- [Sliding Window](#using-sliding-window)
+- [Using Sliding Window](#using-sliding-window)
 - [Conclusion](#conclusion)
 
 
