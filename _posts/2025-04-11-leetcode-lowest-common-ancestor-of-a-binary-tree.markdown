@@ -6,7 +6,7 @@ categories: leetcode programming
 ---
 ## Table of Contents
 - [Problem Statement](#problem-statement)
-- [Using Tree DFS (Depth-First Search)](#using-tree-dfs)
+- [Using Tree DFS (Depth First Search)](#using-tree-dfs)
 - [Conclusion](#conclusion)
 
 
