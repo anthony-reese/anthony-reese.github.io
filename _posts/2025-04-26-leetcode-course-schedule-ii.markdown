@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LeetCode 210 - Course Schedule II"
-date: 2025-04-26 18:10:10 +0400
+date: 2025-04-26 17:10:10 +0400
 categories: leetcode programming
 tags: [breadth-first-search, bfs, vector, leetcode, c++, queue]
 ---
