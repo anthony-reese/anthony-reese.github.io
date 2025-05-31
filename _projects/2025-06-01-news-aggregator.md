@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📰 News Briefs"
-date: 2025-05-31 17:07:37 +0400
+date: 2025-06-01 17:07:37 +0400
 description: "A web app that fetches top headlines with search and save features, using NewsAPI and Next.js."
 categories: projects
 ---
