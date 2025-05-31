@@ -3,9 +3,9 @@ layout: post
 title: "🛡️ Port Scanner"
 tags: [Qt, C++, CLI, Networking]
 date: 2025-04-27 13:41:01 +0400
+description: "A tool that allows users to input an IP address and scan a range of TCP ports."
 categories: projects
 ---
-
 ### 🔍 Overview
 A minimal C++ port scanner using Qt. Clean and responsive GUI for scanning open TCP ports.
 
