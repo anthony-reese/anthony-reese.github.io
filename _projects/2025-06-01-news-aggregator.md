@@ -9,7 +9,7 @@ categories: projects
 ## Preview
 ![News Briefs]({% link assets/images/home.png %})
 
-## Live Demo 
+## Project Link 
 [news-briefs.vercel.app](https://news-briefs.vercel.app)
 
 ## Overview  
