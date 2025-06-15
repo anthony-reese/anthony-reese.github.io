@@ -9,3 +9,150 @@
 ';
 
 /* append your custom style below */
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Default light theme */
+.project-card-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease, background-color 0.3s;
+  height: 180px;
+  overflow: hidden;
+}
+
+:root.light .project-card-horizontal:hover {
+  background-color: #f6f6f6;
+}
+
+.project-card-horizontal img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+}
+
+.project-image {
+  flex-shrink: 0;
+  width: 180px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  padding-left: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    margin: 0 0 0.5rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text-muted-color);
+  }
+}
+
+.project-info h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.project-info p {
+  margin-top: 0;
+  color: var(--text-muted-color);
+}
+
+.project-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: var(--text-light, #555);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-hover-bg: #2a2c2d; /* dark */
+  }
+}
+
+:root.dark .project-card-horizontal:hover {
+  background-color: #2a2c2d;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.project-thumb img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .project-card-horizontal {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-info {
+    padding: 1rem 0 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.post-content a,
+.project-card a,
+.project-info a {
+  text-decoration: none !important;
+}
+
+.post-content a:hover,
+.project-card a:hover {
+  text-decoration: underline;
+}
