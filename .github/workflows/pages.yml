@@ -1,36 +1,44 @@
-name: Deploy Jekyll with Chirpy
+name: Deploy Chirpy Site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout source
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: "3.1"
           bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
       - name: Install dependencies
         run: |
+          npm install -g yarn
+          yarn install
           bundle install
-          bundle exec jekyll build
 
-      - name: Upload build
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
@@ -38,6 +46,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
