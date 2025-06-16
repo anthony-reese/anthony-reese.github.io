@@ -2,13 +2,9 @@
 ---
 
 /* prettier-ignore */
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
+@use 'main';
 
-/* append your custom style below */
+/* append your custom style below/*
 
 .project-list {
   display: flex;
