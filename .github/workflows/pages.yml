@@ -1,4 +1,4 @@
-name: Deploy Chirpy Site to GitHub Pages
+name: Deploy Chirpy site to GitHub Pages
 
 on:
   push:
@@ -10,13 +10,19 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -35,13 +41,13 @@ jobs:
           yarn install
           bundle install
 
-      - name: Build site
-        run: bundle exec jekyll build
+      - name: Build with Jekyll
+        run: JEKYLL_ENV=production bundle exec jekyll build
 
-      - name: Upload GitHub Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     needs: build
