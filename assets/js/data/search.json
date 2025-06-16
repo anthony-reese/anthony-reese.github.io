@@ -1,0 +1,180 @@
+[
+  {
+    "title": "📰 News Briefs",
+    "url": "/posts/news-aggregator/",
+    "categories": "projects",
+    "tags": "",
+    "date": "2025-05-31 10:10:37 -0400",
+    "content": "A web app that fetches top headlines with search and save features, using NewsAPI and Next.js."
+  },
+  {
+    "title": "LeetCode 322 - Coin Change",
+    "url": "/posts/leetcode-coin-change/",
+    "categories": "leetcode programming, dp, c++",
+    "tags": "dynamic-programming",
+    "date": "2025-05-09 02:07:45 -0400",
+    "content": "Table of Contents    Problem Statement   Dynamic Programming   Complexity   Conclusion   Problem Statement You are given an integer array coins representing coins of different denominations and an ..."
+  },
+  {
+    "title": "LeetCode 416 - Partition Equal Subset Sum",
+    "url": "/posts/leetcode-partition-equal-subset-sum/",
+    "categories": "leetcode programming, dp, string, c++, unordered-set",
+    "tags": "dynamic-programming",
+    "date": "2025-05-01 08:08:22 -0400",
+    "content": "Table of Contents    Problem Statement   Using Dynamic Programming   Complexity   Conclusion   Problem Statement Given an integer array nums, return true if you can partition the array into two sub..."
+  },
+  {
+    "title": "🛡️ Port Scanner",
+    "url": "/posts/port-scanner/",
+    "categories": "projects",
+    "tags": "Qt, C++, CLI, Networking",
+    "date": "2025-04-27 05:41:01 -0400",
+    "content": "A tool that allows users to input an IP address and scan a range of TCP ports."
+  },
+  {
+    "title": "LeetCode 210 - Course Schedule II",
+    "url": "/posts/leetcode-course-schedule-ii/",
+    "categories": "leetcode programming, bfs, vector, c++, queue",
+    "tags": "breadth-first-search",
+    "date": "2025-04-26 09:10:10 -0400",
+    "content": "Table of Contents    Problem Statement   Using Breadth First Search   Complexity   Conclusion   Problem Statement There are a total of numCourses courses you have to take, labeled from 0 to numCour..."
+  },
+  {
+    "title": "LeetCode 994 - Rotting Oranges",
+    "url": "/posts/leetcode-rotting-oranges/",
+    "categories": "leetcode programming, bfs, vector, c++, queue",
+    "tags": "breadth-first-search",
+    "date": "2025-04-23 09:27:07 -0400",
+    "content": "Table of Contents    Problem Statement   Using Breadth First Search   Complexity   Conclusion   Problem Statement You are given an m x n grid where each cell can have one of three values:          ..."
+  },
+  {
+    "title": "LeetCode 199 - Binary Tree Right Side View",
+    "url": "/posts/leetcode-binary-tree-right-side-view/",
+    "categories": "leetcode programming, bfs, vector, c++, queue",
+    "tags": "breadth-first-search",
+    "date": "2025-04-19 07:34:07 -0400",
+    "content": "Table of Contents    Problem Statement   Using Breadth First Search   Complexity   Conclusion   Problem Statement Given the root of a binary tree, imagine yourself standing on the right side of it,..."
+  },
+  {
+    "title": "LeetCode 139 - Word Break",
+    "url": "/posts/leetcode-word-break/",
+    "categories": "leetcode programming, dp, string, c++, unordered-set",
+    "tags": "dynamic-programming",
+    "date": "2025-04-14 15:07:37 -0400",
+    "content": "Table of Contents    Problem Statement   Using Dynamic Programming   Complexity   Conclusion   Problem Statement Given a string s and a dictionary of strings wordDict, return true if s can be segme..."
+  },
+  {
+    "title": "LeetCode 347 - Top K Frequent Elements",
+    "url": "/posts/leetcode-top-k-frequent-elements/",
+    "categories": "hashmap, heap, leetcode programming, c++",
+    "tags": "bucket-sort",
+    "date": "2025-04-13 13:55:08 -0400",
+    "content": "Table of Contents    Problem Statement   Using Bucket Sort   Complexity   Conclusion   Problem Statement Given an integer array nums and an integer k, return the k most frequent elements. You may r..."
+  },
+  {
+    "title": "LeetCode 236 - Lowest Common Ancestor of a Binary Tree",
+    "url": "/posts/leetcode-lowest-common-ancestor-of-a-binary-tree/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-04-11 10:46:34 -0400",
+    "content": "Table of Contents    Problem Statement   Using Tree DFS (Depth First Search)   Conclusion   Problem Statement Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tr..."
+  },
+  {
+    "title": "LeetCode 2327 - Number of People Aware of a Secret",
+    "url": "/posts/leetcode-number-of-people-aware-of-a-secret/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-31 11:16:34 -0400",
+    "content": "Table of Contents    Problem Statement   Using Dynamic Programming   Conclusion   Problem Statement On day 1, one person discovers a secret.  You are given an integer delay, which means that each p..."
+  },
+  {
+    "title": "LeetCode 394 - Decode String",
+    "url": "/posts/leetcode-decode-string/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-29 12:21:26 -0400",
+    "content": "Table of Contents    Problem Statement   Using Two Stacks   Conclusion   Problem Statement Given an encoded string, return its decoded string.  The encoding rule is: k[encoded_string], where the en..."
+  },
+  {
+    "title": "LeetCode 232 - Implement Queue using Stacks",
+    "url": "/posts/leetcode-implement-queue-using-stacks/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-28 13:12:48 -0400",
+    "content": "Table of Contents    Problem Statement   Using Two Stacks   Conclusion   Problem Statement Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support al..."
+  },
+  {
+    "title": "LeetCode 73 - Set Matrix Zeroes",
+    "url": "/posts/leetcode-set-matrix-zeroes/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-18 17:19:48 -0400",
+    "content": "Table of Contents    Problem Statement   Using In-place   Conclusion   Problem Statement Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0’s. You must do ..."
+  },
+  {
+    "title": "LeetCode 143 - Reorder List",
+    "url": "/posts/leetcode-reorder-list/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-18 11:10:14 -0400",
+    "content": "Table of Contents    Problem Statement   Using Two Pointers   Conclusion   Problem Statement You are given the head of a singly linked-list. The list can be represented as:  L0 → L1 → … → Ln - 1 → ..."
+  },
+  {
+    "title": "LeetCode 234 - Palindrome Linked List",
+    "url": "/posts/leetcode-palindrome-linked-list/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-15 12:13:14 -0400",
+    "content": "Table of Contents    Problem Statement   Using Two Pointers   Conclusion   Problem Statement Given the head of a singly linked list, return true if it is a palindrome or false otherwise.  Using Two..."
+  },
+  {
+    "title": "LeetCode 151 - Reverse Words in a String",
+    "url": "/posts/leetcode-reverse-words-in-a-string/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-08 15:21:58 -0500",
+    "content": "Table of Contents    Problem Statement   Using Two Pointers   Conclusion   Problem Statement Given an input string s, reverse the order of the words.  A word is defined as a sequence of non-space c..."
+  },
+  {
+    "title": "LeetCode 438 - Find All Anagrams in a String",
+    "url": "/posts/leetcode-find-all-anagrams-in-a-string/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-08 08:28:58 -0500",
+    "content": "Table of Contents    Problem Statement   Using Sliding Window   Conclusion   Problem Statement Given two strings s and p, return an array of all the start indices of p’s anagrams in s. You may retu..."
+  },
+  {
+    "title": "LeetCode 8 - String to Integer (atoi)",
+    "url": "/posts/leetcode-string-to-integer-(atoi)/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-07 02:54:01 -0500",
+    "content": "Table of Contents    Problem Statement   Using Finite State Machine (FSM)   Conclusion   Problem Statement Implement the myAtoi(string s) function, which converts a string to a 32-bit signed intege..."
+  },
+  {
+    "title": "LeetCode 238 - Product of Array Except Self",
+    "url": "/posts/leetcode-product-of-array-except-self/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-01 18:01:01 -0500",
+    "content": "Table of Contents    Problem Statement   Using Sliding Window   Conclusion   Problem Statement Given an integer array nums, return an array answer such that answer[i] is equal to the product of all..."
+  },
+  {
+    "title": "LeetCode 75 - Sort Colors",
+    "url": "/posts/leetcode-75-sort-colors/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-01 18:01:01 -0500",
+    "content": "Table of Contents    Problem Statement   Using Sorting   Conclusion   Problem Statement Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the sam..."
+  },
+  {
+    "title": "LeetCode 167 - Two Sum II - Input Array Is Sorted",
+    "url": "/posts/leetcode-167-two-sum-ii-input-array-is-sorted/",
+    "categories": "leetcode programming",
+    "tags": "",
+    "date": "2025-03-01 18:01:01 -0500",
+    "content": "Table of Contents    Problem Statement   Using Two Pointers   Conclusion   Problem Statement Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two num..."
+  }
+  
+]
+
