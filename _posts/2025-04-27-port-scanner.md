@@ -38,8 +38,5 @@ Port 135 is open (Response Time: 15 ms)
 ### 📂 Python Version: 
 See [Python port scanner script](../assets/code/port_scanner.py) for a CLI-based implementation.
 
-You can also view the [Python port scanner script].  
-Make sure to update the IP_ADDRESS variable inside the script before running.
-
 ### 🔗 View Code
 - 🔧 [Source Code on GitHub](https://github.com/anthony-reese/port-scanner)
