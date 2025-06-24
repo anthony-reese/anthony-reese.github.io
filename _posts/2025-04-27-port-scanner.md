@@ -36,7 +36,7 @@ Port 135 is open (Response Time: 15 ms)
 ```
 
 ### 📂 Python Version: 
-See [Python port scanner script](../assets/code/port_scanner.py) for a CLI-based implementation.
+⬇️ See [Python port scanner script]({{ "/assets/code/port_scanner.py" | relative_url }}) for a CLI-based implementation.
 
 ### 🔗 View Code
 - 🔧 [Source Code on GitHub](https://github.com/anthony-reese/port-scanner)
