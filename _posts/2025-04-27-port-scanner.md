@@ -23,7 +23,6 @@ If the connection succeeds, it is considered "open" and the response time is rec
 ### 📸 Preview
 ![Port Scanner Output]({{ '/assets/img/port-scanner-demo.png' | relative_url }})
 
-
 ### 💻 Demo
 ```sh  
 Enter IP address: 127.0.0.1  
@@ -35,6 +34,12 @@ Port 22 is open (Response Time: 9 ms)
 Port 80 is open (Response Time: 13 ms)  
 Port 135 is open (Response Time: 15 ms)  
 ```
+
+### 📂 Python Version: 
+See [Python port scanner script](../assets/code/port_scanner.py) for a CLI-based implementation.
+
+You can also view the [Python port scanner script].  
+Make sure to update the IP_ADDRESS variable inside the script before running.
 
 ### 🔗 View Code
 - 🔧 [Source Code on GitHub](https://github.com/anthony-reese/port-scanner)
