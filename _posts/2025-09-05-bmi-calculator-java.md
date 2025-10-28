@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "BMI Calculator in Java"
 date: 2025-09-05 10:00:00 +0400
 categories: [Java, CS Foundations]
 tags: [Java, BMI, Console Programs, Beginner]
+permalink: /post/
 ---
 
 This Java console program prompts the user to enter their weight (in pounds) and height (in inches), then calculates their Body Mass Index (BMI) and displays the category.

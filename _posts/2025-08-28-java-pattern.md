@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "Print 'JAVA' Pattern in Java"
 date: 2025-08-28 11:00:00 +0400
 categories: [Java, CS Foundations]
 tags: [Java, Patterns, Console Output, Beginner]
+permalink: /post/
 ---
 
 A simple Java program that prints a stylized "JAVA" pattern using `System.out.println`.
