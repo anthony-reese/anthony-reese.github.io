@@ -2,7 +2,8 @@
 layout: post
 title: "LeetCode 167 - Two Sum II - Input Array Is Sorted"
 date: 2025-03-02 03:01:01 +0400
-categories: [leetcode programming]
+categories: [leetcode programming, Java, CS Foundations]
+permalink: /posts/2025-03-02-leetcode-167-two-sum-ii-input-array-is-sorted
 ---
 ## Table of Contents
 - [Problem Statement](#problem-statement)
