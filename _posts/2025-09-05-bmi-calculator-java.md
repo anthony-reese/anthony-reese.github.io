@@ -2,7 +2,7 @@
 layout: post
 title: "BMI Calculator in Java"
 date: 2025-09-05 10:00:00 +0400
-categories: [Java, CS Foundations]
+categories: [Java, CS Foundations, leetcode programming]
 tags: [Java, BMI, Console Programs, Beginner]
 permalink: /posts/2025-09-05-bmi-calculator-java
 ---
