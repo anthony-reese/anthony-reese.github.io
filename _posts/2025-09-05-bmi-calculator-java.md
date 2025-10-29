@@ -4,6 +4,7 @@ title: "BMI Calculator in Java"
 date: 2025-09-05 10:00:00 +0400
 categories: [Java, CS Foundations]
 tags: [Java, BMI, Console Programs, Beginner]
+permalink: /posts/2025-09-05-bmi-calculator-java
 ---
 
 This Java console program prompts the user to enter their weight (in pounds) and height (in inches), then calculates their Body Mass Index (BMI) and displays the category.
@@ -99,5 +100,5 @@ public class Assignment2_BMI_Calculator {
 - Considered consistent indentation and header comments
 
 ## Related Posts
-- [C++: LeetCode Easy – Two Sum](https://anthony-reese.github.io/posts/2025-03-02-leetcode-167-two-sum-ii-input-array-is-sorted.markdown)
-- [Java: Print "JAVA" Pattern](https://anthony-reese.github.io/posts/2025-08-28-java-pattern.md)
+- [C++: LeetCode Easy – Two Sum]({{ site.baseurl }}/posts/2025-03-02-leetcode-167-two-sum-ii-input-array-is-sorted)
+- [Java: Print "JAVA" Pattern]({{ site.baseurl }}/posts/2025-08-28-java-pattern)

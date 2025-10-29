@@ -4,7 +4,7 @@ title: "Print 'JAVA' Pattern in Java"
 date: 2025-08-28 11:00:00 +0400
 categories: [Java, CS Foundations]
 tags: [Java, Patterns, Console Output, Beginner]
-permalink: /post/
+permalink: /posts/2025-08-28-java-pattern
 ---
 
 A simple Java program that prints a stylized "JAVA" pattern using `System.out.println`.
@@ -41,4 +41,4 @@ public class JavaPattern {
 - Writing clean, readable, and well-commented code from the beginning
 
 ## Related Posts
-- [BMI Calculator in Java](https://anthony-reese.github.io/posts/2025-09-05-bmi-calculator-java.md)
+- [BMI Calculator in Java]({{ site.baseurl }}/posts/2025-09-05-bmi-calculator-java)
